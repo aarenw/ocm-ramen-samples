@@ -12,9 +12,4 @@ spec:
         labelSelector:
           matchLabels:
             name: beijing
-        claimSelector:
-          matchExpressions:
-            - key: location
-              operator: In
-              values:
-                - beijing  
+
