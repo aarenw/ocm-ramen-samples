@@ -1,0 +1,10 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: "busybox"
+  labels:
+    app.kubernetes.io/name: "busybox"
+spec:
+  selector:
+    matchLabels:
+     app: "busybox-sample"

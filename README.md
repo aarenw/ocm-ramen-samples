@@ -5,7 +5,7 @@ OCM Stateful application samples, including Ramen resources.
 ## Initial setup
 
 1. Clone this git repository to get started:
-    - `https://github.com/RamenDR/ocm-ramen-samples.git`
+    - `https://github.com/aarenw/ocm-ramen-samples.git`
   `cd ocm-ramen-samples`
 1. Switch kubeconfig to point to the OCM Hub cluster
 1. If ramen is not configured, configure it using:

@@ -5,5 +5,16 @@ metadata:
   name: busybox-placement
 spec:
   clusterSets:
-  - default
+  - drset
   numberOfClusters: 1
+  predicates:
+    - requiredClusterSelector:
+        labelSelector:
+          matchLabels:
+            name: beijing
+        claimSelector:
+          matchExpressions:
+            - key: location
+              operator: In
+              values:
+                - beijing  
