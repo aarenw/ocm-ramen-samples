@@ -10,8 +10,8 @@ spec:
   drPolicyRef:
     name: dr-policy
   placementRef:
-    kind: Placement
-    name: busybox-placement
+    kind: PlacementRule
+    name: busybox-placementrule
   pvcSelector:
     matchLabels:
       appname: busybox
