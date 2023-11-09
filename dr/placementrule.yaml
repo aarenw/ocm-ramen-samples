@@ -5,8 +5,7 @@ metadata:
     app: busybox-sample
   name: busybox-placementrule
 spec:
-  clusterConditions:
-  - status: "True"
-    type: ManagedClusterConditionAvailable
+  clusterSelector:
+    matchLabels:
+      name: beijing
   clusterReplicas: 1
-  schedulerName: ramen
